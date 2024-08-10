@@ -1,0 +1,18 @@
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 38px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+.sign {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.top-close {
+  position: absolute;
+  right: 198px;
+}
