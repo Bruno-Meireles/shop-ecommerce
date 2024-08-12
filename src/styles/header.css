@@ -4,11 +4,12 @@
   justify-content: space-evenly;
   padding: 14px 24px;
   background-color: var(--white-color);
-  margin: 14px 100px;
+  margin: 14px 0px;
+  flex-wrap: wrap;
 }
 .h1 {
   src: url("../assets/fonts/IntegralFC-Regular.ttf");
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .header-nav ul {
@@ -17,7 +18,7 @@
 }
 .header-nav li {
   display: flex;
-  margin-left: 16px;
+  margin-left: 1rem;
 }
 
 .nav-link {

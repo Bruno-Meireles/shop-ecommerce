@@ -5,6 +5,7 @@
   background-color: var(--background-color-gray);
   background-image: url("../assets/images/models.png");
   background-repeat: no-repeat;
+  flex-wrap: wrap;
 }
 
 .container-title {
@@ -24,7 +25,7 @@
 .shop-now {
   width: 210px;
   height: 52px;
-  margin: 14px 100px;
+  /* margin: 14px 100px; */
   border-radius: 62px;
   background-color: var(--black-color);
   color: var(--white-color);
@@ -53,4 +54,3 @@
 .subtitle {
   color: rgba(0, 0, 0, 0.6);
 }
-

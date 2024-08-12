@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="src/styles/top-bar.css" />
     <link rel="stylesheet" href="src/styles/header.css" />
     <link rel="stylesheet" href="src/styles/find-clothes.css" />
+    <link rel="stylesheet" href="src/styles/logo.css" />
+    <link rel="stylesheet" href="src/styles/arrivals.css" />
+    <link rel="stylesheet" href="src/styles/top-selling.css" />
     <title>Shop.co</title>
   </head>
   <body>
@@ -43,42 +46,225 @@
         />
       </form>
       <div class="img-icons">
-        <img src="src/assets/icons/car.png" alt="" />
+        <img class="icon-star" src="src/assets/icons/car.png" alt="" />
         <img class="" src="src/assets/icons/person.png" alt="" />
       </div>
     </header>
     <!-- sub-header  find clothes-->
     <main>
-      <div class="container-plans">
+      <section class="container-plans">
         <h1 class="container-title">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
-        <div>
-          <img src="src/assets/icons/star.png" alt="icon star" />
+        <p class="container-paragraph">
+          Browse through our diverse range of meticulously crafted garments,
+          designed to bring out your individuality and cater to your sense of
+          style.
+        </p>
 
-          <p class="container-paragraph">
-            Browse through our diverse range of meticulously crafted garments,
-            designed to bring out your individuality and cater to your sense of
-            style.
-          </p>
+        <button class="shop-now">Shop Now</button>
 
-          <button class="shop-now">Shop Now</button>
+        <div class="prices">
+          <div>
+            <span class="price">200+</span>
+            <p class="subtitle">International Brands</p>
+          </div>
+          <div>
+            <span class="price">2,000+</span>
+            <p class="subtitle">High-Quality Products</p>
+          </div>
+          <div>
+            <span class="price">30,000+</span>
+            <p class="subtitle">Happy Customers</p>
+          </div>
+        </div>
+      </section>
+      <!-- logos -->
+      <figcaption>
+        <div class="logo">
+          <img src="src/assets/images/versase-logo.png" alt="" />
+          <img src="src/assets/images/zara-logo.png" alt="" />
+          <img src="src/assets/images/gucci-logo.png" alt="" />
+          <img src="src/assets/images/prada-logo.png" alt="" />
+          <img src="src/assets/images/calvin-logo.png" alt="" />
+        </div>
+      </figcaption>
+      <!-- cards -->
+      <section class="container-arrivals">
+        <h1 class="title-card">NEW ARRIVALS</h1>
+        <div class="card" id="new-arrivals-card"></div>
 
-          <div class="prices">
-            <div>
-              <span class="price">200+</span>
-              <p class="subtitle">International Brands</p>
-            </div>
-            <div>
-              <span class="price">2,000+</span>
-              <p class="subtitle">High-Quality Products</p>
-            </div>
-            <div>
-              <span class="price">30,000+</span>
-              <p class="subtitle">Happy Customers</p>
+        <!-- <div class="card-item">
+            <img
+              src="src/assets/images/shirt-black.png"
+              alt="Product Image"
+              class="card-image"
+            />
+            <div class="card-content">
+              <h2 class="card-title">T-SHIRT WITH TAPE DETAILS</h2>
+              <div class="card-star">
+                <img
+                  class="star-midle"
+                  src="src/assets/icons/yelow-star.png"
+                  alt="image star"
+                />
+              </div>
+              <p class="card-price">$120</p>
             </div>
           </div>
-          <div></div>
-        </div>
+          <div class="card-item">
+            <img
+              src="src/assets/images/jeans.png"
+              alt="Product Image"
+              class="card-image"
+            />
+            <div class="card-content">
+              <h2 class="card-title">SKINNY FIT JEANS</h2>
+              <div class="card-star">
+                <img
+                  class="star-midle"
+                  src="src/assets/icons/yelow-star-midle.png"
+                  alt="image star"
+                />
+              </div>
+              <p class="card-price">
+                $120 <span class="discount">$260</span>
+                <span class="discount-value">-20%</span>
+              </p>
+            </div>
+          </div>
+          <div class="card-item">
+            <img
+              src="src/assets/images/plaid-shirt.png"
+              alt="Product Image"
+              class="card-image"
+            />
+            <div class="card-content">
+              <h2 class="card-title">CHECKERED SHIRT</h2>
+              <div class="card-star">
+                <img
+                  class="star-midle"
+                  src="src/assets/icons/yelow-star.png"
+                  alt="image star"
+                />
+              </div>
+              <p class="card-price">$180</p>
+            </div>
+          </div>
+          <div class="card-item">
+            <img
+              src="src/assets/images/orange-shirt.png"
+              alt="Product Image"
+              class="card-image"
+            />
+            <div class="card-content">
+              <h2 class="card-title">SLEEVE STRIPED T-SHIRT</h2>
+              <div class="card-star">
+                <img
+                  class="star-midle"
+                  src="src/assets/icons/yelow-star.png"
+                  alt="image star"
+                />
+              </div>
+              <p class="card-price">
+                $130 <span class="discount">$160</span>
+                <span class="discount-value">-30%</span>
+              </p>
+            </div>
+          </div>
+        </div> -->
+        <button class="all-button">View All</button>
+      </section>
+      <!-- bar -->
+      <div class="line-container">
+        <div class="line"></div>
       </div>
+      <!-- secound card -->
+      <section class="container-arrivals">
+        <h1 class="title-card">TOP SELLING</h1>
+        <div class="card">
+          <div class="card-item">
+            <img
+              src="src/assets/images/shirt-black.png"
+              alt="Product Image"
+              class="card-image"
+            />
+            <div class="card-content">
+              <h2 class="card-title">T-SHIRT WITH TAPE DETAILS</h2>
+              <div class="card-star">
+                <img
+                  class="star-midle"
+                  src="src/assets/icons/yelow-star.png"
+                  alt="image star"
+                />
+              </div>
+              <p class="card-price">$120</p>
+            </div>
+          </div>
+          <div class="card-item">
+            <img
+              src="src/assets/images/jeans.png"
+              alt="Product Image"
+              class="card-image"
+            />
+            <div class="card-content">
+              <h2 class="card-title">SKINNY FIT JEANS</h2>
+              <div class="card-star">
+                <img
+                  class="star-midle"
+                  src="src/assets/icons/yelow-star-midle.png"
+                  alt="image star"
+                />
+              </div>
+              <p class="card-price">
+                $120 <span class="discount">$260</span>
+                <span class="discount-value">-20%</span>
+              </p>
+            </div>
+          </div>
+          <div class="card-item">
+            <img
+              src="src/assets/images/plaid-shirt.png"
+              alt="Product Image"
+              class="card-image"
+            />
+            <div class="card-content">
+              <h2 class="card-title">CHECKERED SHIRT</h2>
+              <div class="card-star">
+                <img
+                  class="star-midle"
+                  src="src/assets/icons/yelow-star.png"
+                  alt="image star"
+                />
+              </div>
+              <p class="card-price">$180</p>
+            </div>
+          </div>
+          <div class="card-item">
+            <img
+              src="src/assets/images/orange-shirt.png"
+              alt="Product Image"
+              class="card-image"
+            />
+            <div class="card-content">
+              <h2 class="card-title">SLEEVE STRIPED T-SHIRT</h2>
+              <div class="card-star">
+                <img
+                  class="star-midle"
+                  src="src/assets/icons/yelow-star.png"
+                  alt="image star"
+                />
+              </div>
+              <p class="card-price">
+                $130 <span class="discount">$160</span>
+                <span class="discount-value">-30%</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="all-button">View All</button>
+      </section>
     </main>
+    <script src="js/index.js"></script>
+    <script src="js/top-bar.js"></script>
+    <script src="js/new-arrivals-card.js"></script>
   </body>
 </html>

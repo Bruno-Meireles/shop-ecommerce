@@ -5,6 +5,10 @@
   h1 {
     font-family: "IntegralFC-Regular";
   }
+  h2 {
+    font-family: "Satoshi";
+    font-weight: bold;
+  }
 }
 
 /* Import Satoshi font */
