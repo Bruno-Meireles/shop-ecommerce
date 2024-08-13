@@ -9,7 +9,6 @@
   margin: 40px 100px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 .card-image {
   border-radius: 20px;
@@ -63,7 +62,7 @@
 
 .line {
   width: 100%;
-  max-width: 1240px; /* Adjust the maximum width as needed */
+  max-width: 1240px;
   height: 1px;
-  background-color: var(--background-color-gray);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }

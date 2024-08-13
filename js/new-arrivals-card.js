@@ -1,4 +1,3 @@
-
 // cards
 function createCardItem(productData) {
   // Create the card item container
@@ -114,3 +113,53 @@ newArrivalsCard.appendChild(cardItem1);
 newArrivalsCard.appendChild(cardItem2);
 newArrivalsCard.appendChild(cardItem3);
 newArrivalsCard.appendChild(cardItem4);
+
+// Define the product data objects for Top Selling cards
+const topSellingData1 = {
+  imageUrl: "src/assets/images/image.png",
+  title: "DENIM JACKET",
+  rating: 4.7,
+  price: 89.99,
+  fullStarIcon: "src/assets/icons/yelow-star.png",
+  halfStarIcon: "src/assets/icons/yelow-star-midle.png",
+};
+
+const topSellingData2 = {
+  imageUrl: "src/assets/images/frame33.png",
+  title: "FLORAL DRESS",
+  rating: 4.3,
+  price: 59.99,
+  fullStarIcon: "src/assets/icons/yelow-star.png",
+  halfStarIcon: "src/assets/icons/yelow-star-midle.png",
+};
+const topSellingData3 = {
+  imageUrl: "src/assets/images/frame34.png",
+  title: "SKINNY FIT JEANS",
+  rating: 3.5,
+  price: 240,
+  fullStarIcon: "src/assets/icons/yelow-star.png",
+  halfStarIcon: "src/assets/icons/yelow-star-midle.png",
+};
+const topSellingData4 = {
+  imageUrl: "src/assets/images/frame38.png",
+  title: "SLEEVE STRIPED T-SHIRT",
+  rating: 4.5,
+  price: 130,
+  fullStarIcon: "src/assets/icons/yelow-star.png",
+  halfStarIcon: "src/assets/icons/yelow-star-midle.png",
+};
+
+// You can add more product data objects here
+
+// Get a reference to the top-selling-card container
+const topSellingCard = document.getElementById("top-selling-card");
+
+// Create and append the card-item elements for Top Selling cards
+const topSellingCardItem1 = createCardItem(topSellingData1);
+const topSellingCardItem2 = createCardItem(topSellingData2);
+const topSellingCardItem3 = createCardItem(topSellingData3);
+const topSellingCardItem4 = createCardItem(topSellingData4);
+topSellingCard.appendChild(topSellingCardItem1);
+topSellingCard.appendChild(topSellingCardItem2);
+topSellingCard.appendChild(topSellingCardItem3);
+topSellingCard.appendChild(topSellingCardItem4);
