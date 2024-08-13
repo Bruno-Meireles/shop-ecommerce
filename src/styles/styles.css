@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   font-family: "Satoshi";
-  h1 {
+  h1,
+  h4 {
     font-family: "IntegralFC-Regular";
   }
   h2 {

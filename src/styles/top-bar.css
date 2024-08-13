@@ -16,4 +16,7 @@
 .top-close {
   position: absolute;
   right: 7%;
+  background-color: black;
+  border: none;
+  cursor: pointer;
 }

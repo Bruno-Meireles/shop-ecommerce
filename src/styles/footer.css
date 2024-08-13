@@ -1,13 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
 .input-card {
   background-color: var(--black-color);
   color: var(--white-color);
-  margin: 40px 100px;
   height: 180px;
   border-radius: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 36px;
+  width: 80%;
+  position: relative;
+  z-index: 1;
+}
+.container::after,
+.container::before {
+  content: "";
+  position: absolute;
+  top: 128px;
+  height: 50%;
+  width: 50%;
+  background-color: var(--background-color-gray);
+  z-index: 0;
+}
+
+.container::before {
+  left: 0;
+}
+
+.container::after {
+  right: 0;
 }
 
 .input-title {
@@ -39,18 +65,93 @@
 }
 
 /* footer */
-.footer-cards {
-  margin: 40px 100px;
-  display: flex;
-  justify-content: space-between;
-}
 
 .footer-p {
   font-size: 14px;
+  margin-bottom: 1rem;
 }
 
-.footer-item {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
+.footer-shop {
+  max-width: 18%;
+  line-height: 2;
+  margin-left: 5%;
+  margin-right: 50px;
+}
+.footer-icons {
+  transition: 0.3s;
+}
+
+.footer-icons-face {
+  filter: invert(100%);
+  transition: 0.3s;
+}
+.footer-icons:hover {
+  filter: invert(100%);
+  width: 2rem;
+  cursor: pointer;
+}
+.footer-icons-face:hover {
+  filter: invert(0%);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--background-color-gray);
+  padding: 20px;
+  line-height: 1.5;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.footer-column h3 {
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+  color: var(--background-color-gray);
+}
+
+.footer-column ul li a {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1rem;
+  text-decoration: none;
+}
+.last-p {
+  font-size: 14px;
+}
+
+.last {
+  background-color: var(--background-color-gray);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* bar underline */
+.last {
+  position: relative;
+  padding-top: 20px;
+}
+
+.last::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1440px;
+  height: 1px;
+  background-color: #ccc;
 }
