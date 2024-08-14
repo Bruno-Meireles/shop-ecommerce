@@ -1,23 +1,46 @@
 .container-plans {
   display: flex;
   flex-direction: column;
-  height: 663px;
   background-color: var(--background-color-gray);
   background-image: url("../assets/images/models.png");
   background-repeat: no-repeat;
+  background-size: initial;
+  position: relative;
   flex-wrap: wrap;
+  height: 663px;
+}
+
+.black-star {
+  position: absolute;
+  left: 50%;
+  top: 270px;
+  transition: 0.3s;
+}
+.black-star:hover {
+  transform: rotatex(-50deg) rotateY(-20deg);
+  background-color: rgb(228, 225, 225);
+}
+.black-big-star {
+  position: absolute;
+  left: 86%;
+  top: 100px;
+  transition: 0.3s;
+}
+.black-big-star:hover {
+  transform: rotatex(-50deg) rotateY(-20deg);
+  background-color: rgb(228, 225, 225);
 }
 
 .container-title {
-  width: 577;
-  height: 173;
+  max-width: 577px;
+  max-height: 173;
   font-size: 64px;
-  margin: 3rem 130px;
+  margin: 3rem 100px;
 }
 
 .container-paragraph {
   width: 545px;
-  margin: 14px 130px;
+  margin: 14px 100px;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.6);
 }
@@ -25,13 +48,12 @@
 .shop-now {
   width: 210px;
   height: 52px;
-  /* margin: 14px 100px; */
   border-radius: 62px;
   background-color: var(--black-color);
   color: var(--white-color);
   border: none;
   transition: 0.5s;
-  margin: 14px 130px;
+  margin: 14px 100px;
 }
 .shop-now:hover {
   background-color: var(--white-color);
@@ -40,11 +62,10 @@
 }
 
 .prices {
-  margin: 14px 130px;
-  width: 596px;
-  height: 74px;
+  margin: 14px 100px;
   display: flex;
   justify-content: space-between;
+  max-width: 40%;
 }
 .price {
   font-size: 40px;
