@@ -1,7 +1,10 @@
+/* first section footer */
+
 .container {
   display: flex;
   justify-content: center;
   position: relative;
+  margin-top: 3rem;
 }
 
 .input-card {
@@ -42,6 +45,7 @@
 }
 .input-form {
   background-image: url("../assets/icons/email-icon.png");
+  cursor: pointer;
   background-repeat: no-repeat;
   background-position: 16px;
   padding-left: 3rem;
@@ -53,6 +57,7 @@
   height: 48px;
   border-radius: 62px;
   margin: 5px;
+  background-color: rgba(255, 255, 255, 1);
 }
 .error-message {
   color: red;
@@ -63,8 +68,12 @@
 .invalid {
   border-color: red;
 }
+/* End section footer */
 
 /* footer */
+.footer-cards {
+  margin: 40px 100px;
+}
 
 .footer-p {
   font-size: 14px;
@@ -98,8 +107,9 @@
   display: flex;
   justify-content: space-between;
   background-color: var(--background-color-gray);
-  padding: 20px;
   line-height: 1.5;
+  width: 100%;
+  padding-top: 2rem;
 }
 
 .footer-column {

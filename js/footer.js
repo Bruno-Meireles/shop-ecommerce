@@ -1,3 +1,5 @@
+// Start function for validate Email in Footer
+
 const emailInput = document.getElementById("emailInput");
 const emailError = document.getElementById("emailError");
 
@@ -21,3 +23,5 @@ function validateEmail() {
     emailInput.classList.add("invalid");
   }
 }
+
+// End function for validate Email in Footer

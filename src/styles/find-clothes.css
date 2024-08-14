@@ -1,3 +1,5 @@
+/* Start Find Chothes bottom of the header */
+
 .container-plans {
   display: flex;
   flex-direction: column;
@@ -75,3 +77,5 @@
 .subtitle {
   color: rgba(0, 0, 0, 0.6);
 }
+
+/* End Find Chothes bottom of the header */

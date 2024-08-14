@@ -4,6 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/styles/styles.css" />
     <link rel="stylesheet" href="/src/styles/colors.css" />
+   <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/footer.css" />
+      <link rel="stylesheet" href="/src/styles/styles.css" />
+    <link rel="stylesheet" href="/src/styles/colors.css" />
     <link rel="stylesheet" href="src/styles/top-bar.css" />
     <link rel="stylesheet" href="src/styles/header.css" />
     <link rel="stylesheet" href="src/styles/find-clothes.css" />
@@ -16,7 +20,7 @@
     <title>Shop.co</title>
   </head>
   <body>
-    <!-- top-bar -->
+    <!-- /* Start logo black with icon close */  -->
     <section class="top-bar">
       <p class="top-text">
         Sign up and get 20% off to your first order.
@@ -26,7 +30,9 @@
         <img src="src/assets/icons/close.png" alt="icon-close" />
       </button>
     </section>
-    <!-- header -->
+     <!-- end logo black with icon close  -->
+
+    <!-- Start Header -->
     <header class="header-container">
       <h1 class="header-title">SHOP.CO</h1>
       <nav class="header-nav">
@@ -53,7 +59,8 @@
         <img class="icon-person" src="src/assets/icons/person.png" alt="" />
       </div>
     </header>
-    <!-- sub-header  find clothes-->
+     <!-- End Header -->
+    <!-- Start Find Chothes bottom of the header -->
     <main>
       <section class="container-plans">
         <div class="stars">
@@ -94,7 +101,8 @@
           </div>
         </div>
       </section>
-      <!-- logos -->
+      <!-- End Find Chothes bottom of the header -->
+           <!-- Start logos with brands -->
       <figcaption>
         <div class="logo">
           <img src="src/assets/images/versase-logo.png" alt="" />
@@ -104,39 +112,40 @@
           <img src="src/assets/images/calvin-logo.png" alt="" />
         </div>
       </figcaption>
-      <!-- cards  in new-arrivals-cards-->
+           <!-- End logos with brands -->
+      <!-- Start cards  in new-arrivals-cards in function new-arrivals-card.js-->
       <section class="container-arrivals">
         <h1 class="title-card">NEW ARRIVALS</h1>
         <div class="card" id="new-arrivals-card"></div>
-        <button class="all-button">View All</button>
+        <button class="all-button" id="view-all-button">View All</button>
       </section>
       <!-- bar -->
       <div class="line-container">
         <div class="line"></div>
       </div>
-      <!-- secound card -->
+      <!--  Start cards  in Top Selling in function new-arrivals-card.js--> 
       <section class="container-arrivals">
         <h1 class="title-card">TOP SELLING</h1>
         <div class="card" id="top-selling-card"></div>
 
         <button class="all-button">View All</button>
       </section>
+       <!--  End cards  in Top Selling in function new-arrivals-card.js--> 
     </main>
 
-    <!-- BROWSE BY DRESS STYLE -->
-    <aside class="styles">
-      <h1 class="styles-title">BROWSE BY DRESS STYLE</h1>
-      <div class="styles-imgs">
-        <img src="src/assets/images/casual.png" alt="casual style" />
-        <img src="src/assets/images/formal.png" alt="formal style" />
-        <div class="styles-imgs">
-          <img src="src/assets/images/party.png" alt="party style" />
-          <img src="src/assets/images/gym.png" alt=" gym style" />
-        </div>
-      </div>
-    </aside>
+   <!-- Start BROWSE BY DRESS STYLE -->
+<aside class="styles">
+  <h1 class="styles-title">BROWSE BY DRESS STYLE</h1>
+  <div class="styles-imgs">
+    <img class="styles-img" src="src/assets/images/casual.png" alt="casual style" />
+    <img class="styles-img" src="src/assets/images/formal.png" alt="formal style" />
+    <img class="styles-img" src="src/assets/images/party.png" alt="party style" />
+    <img class="styles-img" src="src/assets/images/gym.png" alt=" gym style" />
+  </div>
+</aside>
+   <!-- End BROWSE BY DRESS STYLE -->
 
-    <!-- OUR HAPPY CUSTOMERS -->
+    <!--  Start OUR HAPPY CUSTOMERS -->
     <div class="customers">
       <div class="arrows">
         <h1 class="customers-title">OUR HAPPY CUSTOMERS</h1>
@@ -187,9 +196,11 @@
           </p>
         </div>
       </div>
-    </section>
 
-    <!-- sub footer -->
+       <!--  End OUR HAPPY CUSTOMERS -->
+  
+
+    <!-- Start first section footer with validation email -->
     <div class="container">
       <section class="input-card">
         <h1 class="input-title">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>
@@ -207,6 +218,7 @@
         <span id="emailError" class="error-message"> </span>
       </section>
     </div>
+     <!-- End first section footer with validation email  -->
     <!-- footer -->
 
     <footer class="footer">
@@ -291,9 +303,10 @@
       </div>
     </footer>
 
-    <script src="js/index.js"></script>
+   
     <script src="js/top-bar.js"></script>
     <script src="js/new-arrivals-card.js"></script>
-    <script src="js/footer.js"></script>
-  </body>
+   <script src="js/footer.js"></script>
+ </body>
+ 
 </html>

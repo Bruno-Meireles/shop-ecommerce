@@ -1,3 +1,5 @@
+
+
 // cards
 function createCardItem(productData) {
   // Create the card item container
@@ -101,6 +103,23 @@ const productData4 = {
   fullStarIcon: "src/assets/icons/yelow-star.png",
   halfStarIcon: "src/assets/icons/yelow-star-midle.png",
 };
+const productData5 = {
+  imageUrl: "src/assets/images/orange-shirt.png",
+  title: "SLEEVE STRIPED T-SHIRT",
+  rating: 4.5,
+  price: 130,
+  fullStarIcon: "src/assets/icons/yelow-star.png",
+  halfStarIcon: "src/assets/icons/yelow-star-midle.png",
+};
+const productData6 = {
+  imageUrl: "src/assets/images/orange-shirt.png",
+  title: "SLEEVE STRIPED T-SHIRT",
+  rating: 4.5,
+  price: 130,
+  fullStarIcon: "src/assets/icons/yelow-star.png",
+  halfStarIcon: "src/assets/icons/yelow-star-midle.png",
+};
+
 // Get a reference to the new-arrivals-card container
 const newArrivalsCard = document.getElementById("new-arrivals-card");
 
@@ -109,10 +128,14 @@ const cardItem1 = createCardItem(productData1);
 const cardItem2 = createCardItem(productData2);
 const cardItem3 = createCardItem(productData3);
 const cardItem4 = createCardItem(productData4);
+// const cardItem5 = createCardItem(productData5);
+// const cardItem6 = createCardItem(productData6);
 newArrivalsCard.appendChild(cardItem1);
 newArrivalsCard.appendChild(cardItem2);
 newArrivalsCard.appendChild(cardItem3);
 newArrivalsCard.appendChild(cardItem4);
+// newArrivalsCard.appendChild(cardItem5);
+// newArrivalsCard.appendChild(cardItem6);
 
 // Define the product data objects for Top Selling cards
 const topSellingData1 = {
@@ -163,3 +186,7 @@ topSellingCard.appendChild(topSellingCardItem1);
 topSellingCard.appendChild(topSellingCardItem2);
 topSellingCard.appendChild(topSellingCardItem3);
 topSellingCard.appendChild(topSellingCardItem4);
+
+// const initialCardsContainer = document.getElementById("new-arrivals-card");
+// const allCards = initialContainer.querySelectorAll(".card-item");
+// const viewAllButton = document.getElementById("view-all-button");

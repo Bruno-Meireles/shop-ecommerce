@@ -1,3 +1,5 @@
+/* Start logo black with icon close */
+
 .top-bar {
   display: flex;
   align-items: center;
@@ -20,3 +22,5 @@
   border: none;
   cursor: pointer;
 }
+
+/* End logo black with icon close */

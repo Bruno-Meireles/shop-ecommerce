@@ -1,5 +1,8 @@
+/* Start Browse by dress style */
+
 .styles {
   margin: 60px 100px;
+  padding: 1rem;
   background-color: var(--background-color-gray);
   border-radius: 40px;
   display: flex;
@@ -19,5 +22,13 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+  cursor: pointer;
+}
+.styles-img {
+  transition: all 0.3s ease-out;
+}
+.styles-img:hover {
+  transform: translateY(-10px);
 }
 
+/* End Browse by dress style */
