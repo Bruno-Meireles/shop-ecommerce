@@ -44,7 +44,7 @@
   font-size: 40px;
 }
 .input-form {
-  background-image: url("../assets/icons/email-icon.png");
+  background-image: url("../assets/icons/email-icon.svg");
   cursor: pointer;
   background-repeat: no-repeat;
   background-position: 16px;

@@ -74,8 +74,8 @@ const productData1 = {
   title: "T-SHIRT WITH TAPE DETAILS",
   rating: 4.5,
   price: 120,
-  fullStarIcon: "src/assets/icons/yelow-star.png",
-  halfStarIcon: "src/assets/icons/yelow-star-midle.png",
+  fullStarIcon: "src/assets/icons/yelow-star.svg",
+  halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
 
 const productData2 = {
@@ -83,8 +83,8 @@ const productData2 = {
   title: "SKINNY FIT JEANS",
   rating: 3.5,
   price: 240,
-  fullStarIcon: "src/assets/icons/yelow-star.png",
-  halfStarIcon: "src/assets/icons/yelow-star-midle.png",
+  fullStarIcon: "src/assets/icons/yelow-star.svg",
+  halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
 
 const productData3 = {
@@ -92,32 +92,32 @@ const productData3 = {
   title: "CHECKERED SHIRT",
   rating: 4.5,
   price: 180,
-  fullStarIcon: "src/assets/icons/yelow-star.png",
-  halfStarIcon: "src/assets/icons/yelow-star-midle.png",
+  fullStarIcon: "src/assets/icons/yelow-star.svg",
+  halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
 const productData4 = {
   imageUrl: "src/assets/images/orange-shirt.png",
   title: "SLEEVE STRIPED T-SHIRT",
   rating: 4.5,
   price: 130,
-  fullStarIcon: "src/assets/icons/yelow-star.png",
-  halfStarIcon: "src/assets/icons/yelow-star-midle.png",
+  fullStarIcon: "src/assets/icons/yelow-star.svg",
+  halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
 const productData5 = {
   imageUrl: "src/assets/images/orange-shirt.png",
   title: "SLEEVE STRIPED T-SHIRT",
   rating: 4.5,
   price: 130,
-  fullStarIcon: "src/assets/icons/yelow-star.png",
-  halfStarIcon: "src/assets/icons/yelow-star-midle.png",
+  fullStarIcon: "src/assets/icons/yelow-star.svg",
+  halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
 const productData6 = {
   imageUrl: "src/assets/images/orange-shirt.png",
   title: "SLEEVE STRIPED T-SHIRT",
   rating: 4.5,
   price: 130,
-  fullStarIcon: "src/assets/icons/yelow-star.png",
-  halfStarIcon: "src/assets/icons/yelow-star-midle.png",
+  fullStarIcon: "src/assets/icons/yelow-star.svg",
+  halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
 
 // Get a reference to the new-arrivals-card container
@@ -143,8 +143,8 @@ const topSellingData1 = {
   title: "DENIM JACKET",
   rating: 4.7,
   price: 89.99,
-  fullStarIcon: "src/assets/icons/yelow-star.png",
-  halfStarIcon: "src/assets/icons/yelow-star-midle.png",
+  fullStarIcon: "src/assets/icons/yelow-star.svg",
+  halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
 
 const topSellingData2 = {
@@ -152,24 +152,24 @@ const topSellingData2 = {
   title: "FLORAL DRESS",
   rating: 4.3,
   price: 59.99,
-  fullStarIcon: "src/assets/icons/yelow-star.png",
-  halfStarIcon: "src/assets/icons/yelow-star-midle.png",
+  fullStarIcon: "src/assets/icons/yelow-star.svg",
+  halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
 const topSellingData3 = {
   imageUrl: "src/assets/images/frame34.png",
   title: "SKINNY FIT JEANS",
   rating: 3.5,
   price: 240,
-  fullStarIcon: "src/assets/icons/yelow-star.png",
-  halfStarIcon: "src/assets/icons/yelow-star-midle.png",
+  fullStarIcon: "src/assets/icons/yelow-star.svg",
+  halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
 const topSellingData4 = {
   imageUrl: "src/assets/images/frame38.png",
   title: "SLEEVE STRIPED T-SHIRT",
   rating: 4.5,
   price: 130,
-  fullStarIcon: "src/assets/icons/yelow-star.png",
-  halfStarIcon: "src/assets/icons/yelow-star-midle.png",
+  fullStarIcon: "src/assets/icons/yelow-star.svg",
+  halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
 
 // You can add more product data objects here
