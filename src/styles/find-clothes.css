@@ -81,15 +81,40 @@
 /* End Find Chothes bottom of the header */
 
 /* Mobile */
-@media screen and (max-width: 390px) {
+@media (max-width: 391px) {
   .container-plans {
     max-width: 390px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-image: none;
+    margin: 0 auto;
   }
   .container-title {
     max-width: 315px;
+    font-size: 36px;
+    margin-left: 0px;
   }
-  
+  .container-paragraph {
+    max-width: 358px;
+    text-align: center;
+    margin: 0px;
+  }
+  .stars {
+    display: none;
+  }
+  .shop-now {
+    width: 358px;
+    margin-left: 0px;
+  }
+  .prices {
+    max-width: 278px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+  .price-last {
+  }
 }

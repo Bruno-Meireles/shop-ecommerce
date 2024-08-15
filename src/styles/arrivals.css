@@ -21,7 +21,9 @@
 .card-title {
   font-size: 20px;
 }
-
+.rating-value {
+  margin-left: 8px;
+}
 .card-price {
   font-size: 24px;
 }
@@ -72,3 +74,31 @@
 }
 
 /* End arrivals  */
+
+@media screen and (max-width: 391px) {
+  .container-arrivals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
+
+  .title-card {
+    font-size: 32px;
+  }
+  .card-item {
+    margin-left: 1rem;
+  }
+  .all-button {
+    width: 358px;
+    margin-left: 0px;
+    position: relative;
+  }
+}

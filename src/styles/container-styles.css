@@ -32,3 +32,20 @@
 }
 
 /* End Browse by dress style */
+
+@media screen and (max-width: 391px) {
+  .styles-title{
+    font-size: 32px;
+    max-width: 246px;
+  }
+  .styles {
+    margin: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .styles-img{
+    width: 310px;
+    align-items: center;
+  }
+}

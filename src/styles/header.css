@@ -67,7 +67,7 @@
 
 /* mobile */
 
-@media screen and (max-width: 390px) {
+@media   (max-width: 391px) {
   .header-container {
     justify-content: space-between;
     align-items: center;
