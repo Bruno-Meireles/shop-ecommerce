@@ -12,15 +12,18 @@
   align-items: center;
   margin: 10px 100px;
 }
+.two-arrows {
+  margin: 5px;
+}
 
 .arrow-rigth {
   transition: 0.3s;
+  margin-left: 5px;
 }
 .arrow-rigth:hover {
   transform: scale(2.1);
 }
 .arrow-left {
-  margin-left: 47%;
   transition: 0.3s;
 }
 .arrow-left:hover {
@@ -47,4 +50,24 @@
   display: flex;
   justify-content: space-between;
   margin: 10px 100px;
+}
+
+@media screen and (max-width: 391px) {
+  .customers-card {
+    margin-left: 10px;
+    width: 358px;
+  }
+  .customers-title {
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }
+  .customer-p {
+    font-size: 14px;
+  }
+  .arrows {
+    margin: 40px 10px;
+  }
+  .two-arrows {
+    display: flex;
+  }
 }
