@@ -59,6 +59,16 @@
   margin: 5px;
   background-color: rgba(255, 255, 255, 1);
 }
+.input-subscribe:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: var(--black-color);
+}
+.input-subscribe:hover {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  border: solid 1px var(--white-color);
+}
 .error-message {
   color: red;
   font-size: 14px;

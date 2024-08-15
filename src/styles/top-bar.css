@@ -24,3 +24,16 @@
 }
 
 /* End logo black with icon close */
+
+/* mobile */
+
+@media screen and (max-width: 390px) {
+  /* black top-bar */
+  .top-text {
+    font-size: 12px;
+  }
+
+  .top-close {
+    display: none;
+  }
+}
