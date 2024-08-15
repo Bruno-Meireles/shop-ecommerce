@@ -1,5 +1,3 @@
-
-
 // cards
 function createCardItem(productData) {
   // Create the card item container
@@ -70,7 +68,7 @@ function createCardItem(productData) {
 
 // Define the product data objects
 const productData1 = {
-  imageUrl: "src/assets/images/shirt-black.png",
+  imageUrl: "src/assets/images/shirt-black.svg",
   title: "T-SHIRT WITH TAPE DETAILS",
   rating: 4.5,
   price: 120,
@@ -79,7 +77,7 @@ const productData1 = {
 };
 
 const productData2 = {
-  imageUrl: "src/assets/images/jeans.png",
+  imageUrl: "src/assets/images/jeans.svg",
   title: "SKINNY FIT JEANS",
   rating: 3.5,
   price: 240,
@@ -88,7 +86,7 @@ const productData2 = {
 };
 
 const productData3 = {
-  imageUrl: "src/assets/images/plaid-shirt.png",
+  imageUrl: "src/assets/images/plaid-shirt.svg",
   title: "CHECKERED SHIRT",
   rating: 4.5,
   price: 180,
@@ -96,7 +94,7 @@ const productData3 = {
   halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
 const productData4 = {
-  imageUrl: "src/assets/images/orange-shirt.png",
+  imageUrl: "src/assets/images/orange-shirt.svg",
   title: "SLEEVE STRIPED T-SHIRT",
   rating: 4.5,
   price: 130,
@@ -104,7 +102,7 @@ const productData4 = {
   halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
 const productData5 = {
-  imageUrl: "src/assets/images/orange-shirt.png",
+  imageUrl: "src/assets/images/orange-shirt.svg",
   title: "SLEEVE STRIPED T-SHIRT",
   rating: 4.5,
   price: 130,
@@ -112,7 +110,7 @@ const productData5 = {
   halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
 const productData6 = {
-  imageUrl: "src/assets/images/orange-shirt.png",
+  imageUrl: "src/assets/images/orange-shirt.svg",
   title: "SLEEVE STRIPED T-SHIRT",
   rating: 4.5,
   price: 130,
@@ -139,7 +137,7 @@ newArrivalsCard.appendChild(cardItem4);
 
 // Define the product data objects for Top Selling cards
 const topSellingData1 = {
-  imageUrl: "src/assets/images/image.png",
+  imageUrl: "src/assets/images/image.svg",
   title: "DENIM JACKET",
   rating: 4.7,
   price: 89.99,
@@ -148,7 +146,7 @@ const topSellingData1 = {
 };
 
 const topSellingData2 = {
-  imageUrl: "src/assets/images/frame33.png",
+  imageUrl: "src/assets/images/frame33.svg",
   title: "FLORAL DRESS",
   rating: 4.3,
   price: 59.99,
@@ -156,7 +154,7 @@ const topSellingData2 = {
   halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
 const topSellingData3 = {
-  imageUrl: "src/assets/images/frame34.png",
+  imageUrl: "src/assets/images/frame34.svg",
   title: "SKINNY FIT JEANS",
   rating: 3.5,
   price: 240,
@@ -164,7 +162,7 @@ const topSellingData3 = {
   halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
 const topSellingData4 = {
-  imageUrl: "src/assets/images/frame38.png",
+  imageUrl: "src/assets/images/frame38.svg",
   title: "SLEEVE STRIPED T-SHIRT",
   rating: 4.5,
   price: 130,
