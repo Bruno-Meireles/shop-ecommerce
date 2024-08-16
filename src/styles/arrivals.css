@@ -83,12 +83,12 @@
     align-items: center;
   }
 
-  .card {
+  /* .card {
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: scroll;
-    scroll-behavior: smooth;
-  }
+    overflow-x: hidden;
+    scroll-behavior: auto;
+  } */
 
   .title-card {
     font-size: 32px;
