@@ -139,8 +139,8 @@ newArrivalsCard.appendChild(cardItem4);
 const topSellingData1 = {
   imageUrl: "src/assets/images/image.svg",
   title: "DENIM JACKET",
-  rating: 4.7,
-  price: 89.99,
+  rating: 5.0,
+  price: 212,
   fullStarIcon: "src/assets/icons/yelow-star.svg",
   halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
@@ -148,16 +148,16 @@ const topSellingData1 = {
 const topSellingData2 = {
   imageUrl: "src/assets/images/frame33.svg",
   title: "FLORAL DRESS",
-  rating: 4.3,
-  price: 59.99,
+  rating: 4.0,
+  price: 145,
   fullStarIcon: "src/assets/icons/yelow-star.svg",
   halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
 const topSellingData3 = {
   imageUrl: "src/assets/images/frame34.svg",
   title: "SKINNY FIT JEANS",
-  rating: 3.5,
-  price: 240,
+  rating: 3.0,
+  price: 80,
   fullStarIcon: "src/assets/icons/yelow-star.svg",
   halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
@@ -165,7 +165,7 @@ const topSellingData4 = {
   imageUrl: "src/assets/images/frame38.svg",
   title: "SLEEVE STRIPED T-SHIRT",
   rating: 4.5,
-  price: 130,
+  price: 210,
   fullStarIcon: "src/assets/icons/yelow-star.svg",
   halfStarIcon: "src/assets/icons/yelow-star-midle.svg",
 };
