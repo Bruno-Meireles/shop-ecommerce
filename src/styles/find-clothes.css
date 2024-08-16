@@ -1,28 +1,94 @@
 /* Start Find Chothes bottom of the header */
+.container-arrivals .content {
+  display: flex;
+  justify-content: space-between;
+}
 
 .container-plans {
-  display: flex;
-  flex-direction: column;
   background-color: var(--background-color-gray);
   position: relative;
-  flex-wrap: wrap;
-  height: 663px;
+
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-first {
+  max-width: 50%;
+
+
+  .container-title {
+    font-size: 64px;
+  }
+
+  .container-paragraph {
+    max-width: 88%;
+    font-size: 1rem;
+    color: var(--text-color);
+
+  }
+
+  .shop-now {
+    width: 210px;
+    height: 52px;
+    border-radius: 62px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    border: none;
+    transition: 0.5s;
+  }
+
+  .prices {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .price {
+    font-size: 40px;
+
+  }
+
+  .subtitle {
+    color: var(--text-color);
+  }
+
+
 }
 
 .models-img {
-  width: 578px;
+  position: relative;
 }
+
+.black-star {
+  position: absolute;
+  right: 42%;
+  top: 54%;
+  transition: 0.3s;
+}
+
+.black-big-star {
+  position: absolute;
+  left: 82%;
+  top: 10%;
+  transition: 0.3s;
+}
+
+.black-big-star:hover {
+  transform: rotatex(-50deg) rotateY(-20deg);
+  background-color: rgb(228, 225, 225);
+}
+
+
+
 
 .models-mobile-img {
   display: none;
 }
 
-.black-star {
-  position: absolute;
-  left: 50%;
-  top: 270px;
-  transition: 0.3s;
-}
+
 
 .black-star-mobile {
   display: none;
@@ -37,42 +103,24 @@
   background-color: rgb(228, 225, 225);
 }
 
-.black-big-star {
-  position: absolute;
-  left: 86%;
-  top: 100px;
-  transition: 0.3s;
-}
 
-.black-big-star:hover {
-  transform: rotatex(-50deg) rotateY(-20deg);
-  background-color: rgb(228, 225, 225);
-}
+
 
 .container-title {
-  max-width: 577px;
+  /* max-width: 577px;
   max-height: 173;
   font-size: 64px;
-  margin: 3rem 100px;
+  margin: 3rem 100px; */
 }
 
 .container-paragraph {
-  width: 545px;
+  /* width: 545px;
   margin: 14px 100px;
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6); */
 }
 
-.shop-now {
-  width: 210px;
-  height: 52px;
-  border-radius: 62px;
-  background-color: var(--black-color);
-  color: var(--white-color);
-  border: none;
-  transition: 0.5s;
-  margin: 14px 100px;
-}
+
 
 .shop-now:hover {
   background-color: var(--white-color);
@@ -80,21 +128,9 @@
   border: solid 1px var(--black-color);
 }
 
-.prices {
-  margin: 14px 100px;
-  display: flex;
-  justify-content: space-between;
-  max-width: 40%;
-}
 
-.price {
-  font-size: 40px;
-  font-weight: 700;
-}
 
-.subtitle {
-  color: rgba(0, 0, 0, 0.6);
-}
+
 
 /* End Find Chothes bottom of the header */
 

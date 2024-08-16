@@ -3,25 +3,25 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 122px;
   background-color: var(--black-color);
-  padding: 0px 100px;
-  flex-wrap: wrap;
+  padding: 25px 0px;
+
 }
+
 .logo-zara {
   display: none;
 }
 
+
+
 /* End logos with brands */
 @media screen and (max-width: 391px) {
   .logo {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    height: 146px;
+    
+   
   }
+
   .logo img {
-    width: 116px;
-    height: 23.25px;
+   
   }
 }

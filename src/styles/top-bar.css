@@ -1,33 +1,37 @@
 /* Start logo black with icon close */
 
-.top-bar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-  height: 38px;
+#top-bar {
   background-color: var(--black-color);
-  color: var(--white-color);
-  flex-wrap: wrap;
+  padding: 10px 0;
 }
+
+#top-bar .content {
+  justify-content: space-around;
+}
+
+.content p {
+  color: var(--white-color);
+}
+
 
 .sign {
   text-decoration: underline;
   cursor: pointer;
 }
+
 .top-close {
-  position: absolute;
-  right: 7%;
   background-color: black;
   border: none;
   cursor: pointer;
+
 }
 
 /* End logo black with icon close */
 
 /* mobile */
 
-@media  (max-width: 391px) {
+@media (max-width: 390px) {
+
   /* black top-bar */
   .top-text {
     font-size: 12px;

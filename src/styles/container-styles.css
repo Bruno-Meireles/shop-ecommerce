@@ -1,32 +1,40 @@
 /* Start Browse by dress style */
 
-.styles {
-  margin: 60px 100px;
-  padding: 1rem;
+.styles .content {
   background-color: var(--background-color-gray);
   border-radius: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+  cursor: pointer;
+  display: block;
+  flex-wrap: wrap;
 
+
+}
+.styles {
+  padding: 2% 0px;
+}
 .styles-title {
-  text-align: center;
   font-size: 48px;
-  margin: 40px auto;
+  width: 1240px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 5% 0px;
+
 }
 
 .styles-imgs {
+  padding: 5% 5%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  cursor: pointer;
+
 }
+
 .styles-img {
   transition: all 0.3s ease-out;
 }
+
 .styles-img:hover {
   transform: translateY(-10px);
 }
@@ -34,17 +42,19 @@
 /* End Browse by dress style */
 
 @media screen and (max-width: 391px) {
-  .styles-title{
+  .styles-title {
     font-size: 32px;
     max-width: 246px;
   }
+
   .styles {
     margin: 40px 10px;
     display: flex;
     flex-direction: column;
-    
+
   }
-  .styles-img{
+
+  .styles-img {
     width: 310px;
     align-items: center;
   }
