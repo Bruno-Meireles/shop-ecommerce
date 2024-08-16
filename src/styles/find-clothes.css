@@ -4,9 +4,6 @@
   display: flex;
   flex-direction: column;
   background-color: var(--background-color-gray);
-  /* background-image: url("../assets/images/models.svg");
-  background-repeat: no-repeat; */
-  background-size: initial;
   position: relative;
   flex-wrap: wrap;
   height: 663px;
@@ -14,12 +11,21 @@
 .models-img {
   width: 578px;
 }
+.models-mobile-img {
+  display: none;
+}
 
 .black-star {
   position: absolute;
   left: 50%;
   top: 270px;
   transition: 0.3s;
+}
+.black-star-mobile {
+  display: none;
+}
+.black-big-star-mobile {
+  display: none;
 }
 .black-star:hover {
   transform: rotatex(-50deg) rotateY(-20deg);
@@ -89,20 +95,19 @@
     max-width: 390px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
     flex-wrap: wrap;
     background-image: none;
     margin: 0 auto;
-    /* position: relative; */
+    padding: 0px 16px;
+    position: relative;
   }
   .container-title {
-    max-width: 315px;
     font-size: 36px;
-    margin-left: 0px;
+    margin-left: 16px;
   }
   .container-paragraph {
     max-width: 358px;
+    font-size: 14px;
     text-align: center;
     margin: 0px;
   }
@@ -114,16 +119,38 @@
     margin-left: 0px;
   }
   .prices {
-    max-width: 278px;
-    margin: 0px;
+    max-width: 100%;
+    margin: 16px;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 2;
+    /* display: flex;
+    flex-direction: row; */
+  }
+  .price-last {
+    flex: 3;
+    align-self: center;
+    margin-left: 25%;
   }
   .models-img {
-    display: flex;
-    flex-direction: column;
-    width:390px ;
-    height: 448px;
-    /* position: absolute; */
+    display: none;
+  }
+  .models-mobile-img {
+    display: block;
+    max-width: 100%;
+  }
+  .black-star-mobile {
+    display: block;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 150px;
+    width: 44px;
+  }
+  .black-big-star-mobile {
+    display: block;
+    position: absolute;
+    left: 75%;
+    width: 76px;
+    margin-top: 10%;
   }
 }

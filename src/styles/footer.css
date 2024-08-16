@@ -206,7 +206,7 @@
     text-align: center;
   }
   .last-p {
-line-height: 1;
+    line-height: 1;
   }
   .last::before {
     width: 358px;
