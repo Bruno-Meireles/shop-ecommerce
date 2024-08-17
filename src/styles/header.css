@@ -116,6 +116,10 @@
 
   }
 
+  .container-title {
+    font-size: 36px;
+  }
+
   .menu {
     display: block;
   }

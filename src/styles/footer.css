@@ -139,6 +139,7 @@
 .footer-column ul li {
   list-style: none;
 }
+
 .last-p {
   font-size: 14px;
 }
@@ -166,38 +167,39 @@
 }
 
 @media screen and (max-width: 391px) {
-  .container {
-    margin: 0px 10px;
-  }
 
   .input-card {
     display: flex;
     flex-direction: column;
-    height: 293px;
+    justify-content: center;
+    width: 74%;
+  }
+
+  .input-card {
+    display: flex;
+    justify-content: center;
   }
 
   .input-title {
     font-size: 32px;
   }
 
-  .footer {
-    display: block;
-    text-align: start;
+  .inputs {
+    padding: 10px;
   }
+
+  .footer {}
 
   .footer-shop {
-    margin: 0px 10px;
-    max-width: 100%;
+    margin: 0px;
   }
 
-  .footer-p {
-    max-width: 357px;
-  }
+  .footer-p {}
 
   .last {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: center; */
   }
 
   .last-p {
@@ -205,6 +207,6 @@
   }
 
   .last::before {
-    width: 358px;
+    /* width: 358px; */
   }
 }

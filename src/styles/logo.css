@@ -8,20 +8,32 @@
 
 }
 
-.logo-zara {
+.logos-zara {
   display: none;
 }
 
 
-
 /* End logos with brands */
 @media screen and (max-width: 391px) {
+
   .logo {
-    
-   
+    display: flex;
+    justify-content: space-between;
+    max-width: 390px;
+
   }
 
-  .logo img {
-   
+  .logos-zara {
+    display: block;
+    height: 16px;
+  }
+
+  .logos {
+    width: 17%;
+
+  }
+
+  .logo-desktop {
+    display: none;
   }
 }

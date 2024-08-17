@@ -16,10 +16,11 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 3% 0px;
 
   .card-item {
     transition: all 0.3s ease-out;
-    margin: 10px;
+    margin: 4px;
   }
 
   .card-item:hover {
@@ -98,24 +99,21 @@
     align-items: center;
   }
 
-  /* .card {
+  .card {
     display: flex;
-    flex-wrap: nowrap;
-    overflow-x: hidden;
-    scroll-behavior: auto;
-  } */
+    justify-content: center;
 
-  .title-card {
-    font-size: 32px;
+    .card-item {
+      padding: 3% 0px;
+    }
   }
+}
 
-  .card-item {
-    margin-left: 1rem;
-  }
+.title-card {
+  font-size: 32px;
+  padding: 5%;
+}
 
-  .all-button {
-    width: 358px;
-    margin-left: 0px;
-    position: relative;
-  }
+.all-button {
+  /* width: 80%; */
 }
