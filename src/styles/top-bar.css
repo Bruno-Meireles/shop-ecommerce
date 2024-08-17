@@ -3,10 +3,18 @@
 #top-bar {
   background-color: var(--black-color);
   padding: 10px 0;
+  position: relative;
 }
 
 #top-bar .content {
-  justify-content: space-around;
+  justify-content: center;
+  position: relative;
+
+  .top-close {
+    align-self: last baseline;
+    position: absolute;
+    right: 8px;
+  }
 }
 
 .top-text {

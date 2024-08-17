@@ -15,6 +15,7 @@
 
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   .card-item {
     transition: all 0.3s ease-out;
