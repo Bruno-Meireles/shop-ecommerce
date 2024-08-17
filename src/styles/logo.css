@@ -14,7 +14,7 @@
 
 
 /* End logos with brands */
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 576px) {
 
   .logo {
     display: flex;

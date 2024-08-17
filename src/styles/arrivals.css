@@ -76,22 +76,12 @@
   color: var(--white-color);
 }
 
-.line-container {
-  display: flex;
-  justify-content: center;
-  padding: 40px 0;
-}
 
-.line {
-  width: 100%;
-  max-width: 1440px;
-  height: 1px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
+
 
 /* End arrivals  */
 
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 576px) {
   .container-arrivals {
     display: flex;
     flex-direction: column;
@@ -101,7 +91,9 @@
 
   .card {
     display: flex;
-    justify-content: center;
+    overflow: hidden;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
 
     .card-item {
       padding: 3% 0px;
@@ -114,6 +106,3 @@
   padding: 5%;
 }
 
-.all-button {
-  /* width: 80%; */
-}

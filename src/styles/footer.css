@@ -127,13 +127,12 @@
   flex-direction: column;
   justify-content: space-around;
   line-height: 2;
-
-
 }
 
 .footer-column ul li a {
   font-size: 1rem;
   text-decoration: none;
+  color: var(--text-color);
 }
 
 .footer-column ul li {
@@ -155,18 +154,7 @@
   position: relative;
 }
 
-.last::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 1240px;
-  height: 1px;
-  background-color: #ccc;
-}
-
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 576px) {
 
   .input-card {
     display: flex;

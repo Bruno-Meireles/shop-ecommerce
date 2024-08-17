@@ -9,9 +9,11 @@
 
 
 }
+
 .styles {
   padding: 2% 0px;
 }
+
 .styles-title {
   font-size: 48px;
   margin: auto;
@@ -40,7 +42,7 @@
 
 /* End Browse by dress style */
 
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 576px) {
   .styles-title {
     font-size: 32px;
     max-width: 246px;

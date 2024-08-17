@@ -7,64 +7,50 @@
 .container-plans {
   background-color: var(--background-color-gray);
   position: relative;
-  /* max-height: 663px; */
+}
+
+.container-paragraph {
+  max-width: 88%;
+  font-size: 1rem;
+  color: var(--text-color);
+  padding: 2% 0%;
+  margin-bottom: 5px;
+}
+
+.shop-now {
+  width: 210px;
+  padding: 16px;
+  border-radius: 62px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  border: none;
+  transition: 0.5s;
+  margin-bottom: 5px;
+}
+
+.prices {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
 
 }
 
-.container-first {
-  max-width: 47%;
-
-  .container-title {
-    font-size: 64px;
-    line-height: 1;
-    margin-bottom: 5px;
-  }
-
-  .container-paragraph {
-    max-width: 88%;
-    font-size: 1rem;
-    color: var(--text-color);
-    padding: 2% 0%;
-    margin-bottom: 5px;
-  }
-
-  .shop-now {
-    width: 210px;
-    padding: 16px;
-    border-radius: 62px;
-    background-color: var(--black-color);
-    color: var(--white-color);
-    border: none;
-    transition: 0.5s;
-    margin-bottom: 5px;
-  }
-
-  .prices {
-    display: flex;
-    justify-content: space-between;
-
-  }
-
-  .price {
-    font-size: 40px;
-
-  }
-
-  .subtitle {
-    color: var(--text-color);
-  }
-
-
+.price {
+  font-size: 40px;
 }
 
-.models-star {
+.subtitle {
+  color: var(--text-color);
+}
+
+.column-50{
   position: relative;
 }
 
 .black-star {
   position: absolute;
-  right: 138%;
-  top: 54%;
+  right: 114%;
+  top: 38%;
   transition: 0.3s;
 }
 
@@ -89,11 +75,7 @@
 }
 
 .container-title {
-  height: 10%;
-}
-
-.container-paragraph {
-  height: 10%;
+  max-width: 38%;
 }
 
 .shop-now:hover {
@@ -107,50 +89,19 @@
 /* End Find Chothes bottom of the header */
 
 /* Mobile */
-@media (max-width: 391px) {
- .container-first .container-title  {
-  font-size: 36px;
- }
- 
+@media (max-width: 576px) {
+  .container-first .container-title {
+    font-size: 36px;
+  }
+
 
   .container-title .content {
     font-size: 36px;
-    /* font-size: 36px;
-    margin-left: 16px;
-    margin: 16px;
-    max-width: 315px; */
-  }
 
-  .container-paragraph {
-    /* max-width: 358px;
-    font-size: 14px;
-    text-align: center;
-    margin: 0px; */
-  }
-
-  /* .stars {
-    display: none;
-  } */
-
-  .shop-now {
-    /* width: 358px;
-    margin-left: 0px; */
   }
 
   .prices {
-    /* max-width: 100%;
-    margin: 16px;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 2; */
-    /* display: flex;
-    flex-direction: row; */
-  }
-
-  .price-last {
-    /* flex: 3;
-    align-self: center;
-    margin-left: 25%; */
+    padding: 20px;
   }
 
   .stars-mobile {
