@@ -43,7 +43,7 @@
   color: var(--text-color);
 }
 
-.column-50{
+.column-50 {
   position: relative;
 }
 
@@ -58,7 +58,6 @@
   left: 70%;
   top: 8%;
 }
-
 
 .black-star:hover {
   transform: rotatex(-50deg) rotateY(-20deg);
@@ -90,10 +89,13 @@
 
 /* Mobile */
 @media (max-width: 576px) {
+  .column-50 {
+    display: flex;
+    align-items: center;
+  }
   .container-first .container-title {
     font-size: 36px;
   }
-
 
   .container-title .content {
     font-size: 36px;
@@ -126,5 +128,14 @@
     left: 75%;
     width: 76px;
     top: 10%;
+  }
+
+  .models-mobile-img {
+    display: none;
+
+  }
+
+  .black-star {
+    display: none;
   }
 }
