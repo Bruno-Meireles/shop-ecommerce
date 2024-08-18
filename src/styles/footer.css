@@ -67,12 +67,18 @@
 
 .error-message {
   color: red;
-  font-size: 14px;
+  font-size: 1rem;
   margin-top: 5px;
+
 }
 
 .invalid {
   border-color: red;
+}
+
+.send-message {
+  color: green;
+  font-size: 1rem;
 }
 
 /* End section footer */
@@ -119,7 +125,7 @@
   justify-content: space-between;
   background-color: var(--background-color-gray);
   /* line-height: 1.5; */
-  padding: 3rem 0rem;
+  padding: 2rem 0rem;
 }
 
 .footer-column {
@@ -141,12 +147,19 @@
 
 .last-p {
   font-size: 14px;
+  color: var(--text-color);
 }
 
 .last {
   background-color: var(--background-color-gray);
-  color: var(--text-color);
-  padding: 20px 5%;
+}
+
+.copy {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: var(--background-color-gray);
 }
 
 /* bar underline */
@@ -191,9 +204,8 @@
   }
 
   .container::after {
-    height: 62%;
+    height: 66%;
   }
-
 
   .last-p {
     line-height: 1;
@@ -210,9 +222,16 @@
     display: flex;
     gap: 5px;
   }
-  .copy {
+
+  .copy .content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 5px;
+
+  }
+
+  .last-img-pays {
+    height: 38px;
   }
 }

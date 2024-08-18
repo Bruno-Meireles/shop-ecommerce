@@ -9,9 +9,14 @@
   position: relative;
 }
 
+.container-title {
+  font-size: 64px;
+  line-height: 1;
+  padding-top: 10px;
+}
+
 .container-paragraph {
-  max-width: 88%;
-  font-size: 1rem;
+  font-size: 18px;
   color: var(--text-color);
   padding: 2% 0%;
   margin-bottom: 5px;
@@ -50,7 +55,7 @@
 .black-star {
   position: absolute;
   right: 114%;
-  top: 38%;
+  top: 44%;
   transition: 0.3s;
 }
 
@@ -73,10 +78,6 @@
   background-color: rgb(228, 225, 225);
 }
 
-.container-title {
-  max-width: 38%;
-}
-
 .shop-now:hover {
   background-color: var(--white-color);
   color: var(--black-color);
@@ -92,14 +93,22 @@
   .column-50 {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 5px;
+
   }
+
+
   .container-first .container-title {
     font-size: 36px;
   }
 
-  .container-title .content {
+  .container-title {
     font-size: 36px;
+  }
 
+  .container-paragraph {
+    font-size: 14px;
   }
 
   .prices {
@@ -137,5 +146,9 @@
 
   .black-star {
     display: none;
+  }
+
+  .shop-now {
+    width: 358px;
   }
 }

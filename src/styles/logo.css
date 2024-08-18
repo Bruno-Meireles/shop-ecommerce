@@ -16,21 +16,19 @@
 /* End logos with brands */
 @media screen and (max-width: 576px) {
 
-  .logo {
+  .logo .content {
     display: flex;
-    justify-content: space-between;
-    max-width: 390px;
-
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 12px;
   }
 
   .logos-zara {
     display: block;
-    height: 16px;
   }
 
   .logos {
-    width: 17%;
-
+    height: 20px;
   }
 
   .logo-desktop {

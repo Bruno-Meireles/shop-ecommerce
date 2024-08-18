@@ -1,27 +1,35 @@
-// Start function for validate Email in Footer
-
 const emailInput = document.getElementById("emailInput");
 const emailError = document.getElementById("emailError");
+const inputSubscribe = document.getElementById("inputSubscribe");
+const emailSend = document.getElementById("emailSend");
 
-// Regular expression pattern for email validation
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-// Event listener for input field
 emailInput.addEventListener("input", validateEmail);
+inputSubscribe.addEventListener("click", subscribe);
 
-// Function to validate email
 function validateEmail() {
   const email = emailInput.value.trim();
 
   if (emailPattern.test(email)) {
-    // Valid email
     emailError.textContent = "";
     emailInput.classList.remove("invalid");
   } else {
-    // Invalid email
     emailError.textContent = "Please enter a valid email address.";
     emailInput.classList.add("invalid");
   }
 }
+function subscribe() {
+  const email = emailInput.value.trim();
+  if (emailPattern.test(email)) {
+    emailSend.textContent = "Thank you for subscribing!";
+    emailSend.display = "block";
+    emailError.textContent = "";
+    setTimeout(() => {
+      emailSend.style.display = "none";
+    }, 3000);
+    
+  }
+  
+}
 
-// End function for validate Email in Footer

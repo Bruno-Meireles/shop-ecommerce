@@ -99,10 +99,13 @@
       padding: 3% 0px;
     }
   }
-}
 
-.title-card {
-  font-size: 32px;
-  padding: 5%;
-}
+  .title-card {
+    font-size: 32px;
+    padding: 5%;
+  }
 
+  .all-button {
+    width: 80%;
+  }
+}
