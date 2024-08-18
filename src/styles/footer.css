@@ -124,7 +124,6 @@
   display: flex;
   justify-content: space-between;
   background-color: var(--background-color-gray);
-  /* line-height: 1.5; */
   padding: 2rem 0rem;
 }
 
@@ -170,16 +169,14 @@
 @media screen and (max-width: 576px) {
 
 
+
   .input-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 74%;
-  }
-
-  .input-card {
-    display: flex;
+    text-align: center;
     justify-content: center;
+    width: 74%;
   }
 
   .input-title {
@@ -233,5 +230,10 @@
 
   .last-img-pays {
     height: 38px;
+  }
+
+  .input-form,
+  .input-subscribe {
+    width: 271px;
   }
 }
