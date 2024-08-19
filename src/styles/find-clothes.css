@@ -1,8 +1,8 @@
 /* Start Find Chothes bottom of the header */
-.container-arrivals .content {
+/* .container-arrivals .content {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 .container-plans {
   background-color: var(--background-color-gray);
@@ -52,16 +52,17 @@
   position: relative;
 }
 
+
 .black-star {
   position: absolute;
-  right: 114%;
-  top: 44%;
+  right: 86%;
+  top: 48%;
   transition: 0.3s;
 }
 
 .black-star:last-of-type {
-  left: 70%;
-  top: 8%;
+  left: 83%;
+  top: 10%;
 }
 
 .black-star:hover {
@@ -139,7 +140,7 @@
     top: 10%;
   }
 
-  .models-mobile-img {
+  .models {
     display: none;
 
   }
