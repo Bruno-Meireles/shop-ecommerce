@@ -62,16 +62,13 @@
   padding: 58px 0;
   background-position-x: 10px;
   overflow: visible;
+  position: relative;
 }
 
-/* .models {
-  overflow: visible;
-  width: 300px;
-} */
 
 .black-star {
   position: absolute;
-  right: 86%;
+  right: 42%;
   top: 48%;
   transition: 0.3s;
 }
@@ -113,6 +110,10 @@
     justify-content: center;
     gap: 5px;
 
+  }
+
+  .input-card {
+    margin: auto;
   }
 
 
@@ -159,6 +160,10 @@
   .models {
     display: none;
 
+  }
+
+  .column-2 {
+    /* background-image: none; */
   }
 
   .black-star {
