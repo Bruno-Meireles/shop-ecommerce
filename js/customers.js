@@ -10,11 +10,12 @@ function createCustomerCard(customerData) {
 
   const customer = document.createElement("div");
   customer.classList.add("customer-content");
+  customerCard.appendChild(customer);
 
   const customerName = document.createElement("h2");
   customerName.classList.add("customer-name");
   customerName.textContent = customerData.title;
-    customer.appendChild(customerName);
+  customer.appendChild(customerName);
 
   const okIcon = document.createElement("img");
   okIcon.src = "src/assets/icons/ok.svg";
@@ -22,15 +23,10 @@ function createCustomerCard(customerData) {
   okIcon.classList.add("ok-icon");
   customerName.appendChild(okIcon);
 
-  const customerQuote = document.createElement("p");
-  customerQuote.classList.add("customer-quote");
-  customerQuote.textContent = customerData.paragraph;
-  customer.appendChild(customerQuote);
-
-
-
-  customerCard.appendChild(customer);
-  // customer.appendChild(customer);
+  const customerParagraph = document.createElement("p");
+  customerParagraph.classList.add("customer-quote");
+  customerParagraph.textContent = customerData.paragraph;
+  customer.appendChild(customerParagraph);
 
   return customerCard;
 }
