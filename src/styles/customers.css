@@ -14,11 +14,12 @@
 
 }
 
-
 .customers-all {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
   justify-content: space-between;
   margin: 2rem 0px;
 
