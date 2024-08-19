@@ -36,27 +36,27 @@ function createCardItem(productData) {
 }
 const productsData = [
   {
-    imageUrl: "src/assets/images/shirt-black.svg",
+    imageUrl: "./src/assets/images/shirt-black.svg",
     title: "T-SHIRT WITH TAPE DETAILS",
-    iconUrl: "src/assets/icons/yelow-star-4-5.svg",
+    iconUrl: "./src/assets/icons/yelow-star-4-5.svg",
     price: 120,
   },
   {
-    imageUrl: "src/assets/images/jeans.svg",
+    imageUrl: "./src/assets/images/jeans.svg",
     title: "SKINNY FIT JEANS",
-    iconUrl: "src/assets/icons/yelow-star-3-5.svg",
+    iconUrl: "./src/assets/icons/yelow-star-3-5.svg",
     price: 240,
   },
   {
-    imageUrl: "src/assets/images/plaid-shirt.svg",
+    imageUrl: "./src/assets/images/plaid-shirt.svg",
     title: "CHECKERED SHIRT",
-    iconUrl: "src/assets/icons/yelow-star-4-5.svg",
+    iconUrl: "./src/assets/icons/yelow-star-4-5.svg",
     price: 180,
   },
   {
-    imageUrl: "src/assets/images/orange-shirt.svg",
+    imageUrl: "./src/assets/images/orange-shirt.svg",
     title: "SLEEVE STRIPED T-SHIRT",
-    iconUrl: "src/assets/icons/yelow-star-4-5.svg",
+    iconUrl: "./src/assets/icons/yelow-star-4-5.svg",
     price: 130,
   },
 ];
@@ -88,27 +88,27 @@ productsData.forEach((productData) => {
 
 const productsDataSelling = [
   {
-    imageUrl: "src/assets/images/frame32.svg",
+    imageUrl: "./src/assets/images/frame32.svg",
     title: "DENIM JACKET",
-    iconUrl: "src/assets/icons/yelow-star-5-0.svg",
+    iconUrl: "./src/assets/icons/yelow-star-5-0.svg",
     price: 212,
   },
   {
-    imageUrl: "src/assets/images/frame33.svg",
+    imageUrl: "./src/assets/images/frame33.svg",
     title: "FLORAL DRESS",
-    iconUrl: "src/assets/icons/yelow-star-4-0.svg",
+    iconUrl: "./src/assets/icons/yelow-star-4-0.svg",
     price: 145,
   },
   {
-    imageUrl: "src/assets/images/frame34.svg",
+    imageUrl: "./src/assets/images/frame34.svg",
     title: "SKINNY FIT JEANS",
-    iconUrl: "src/assets/icons/yelow-star-3-0.svg",
+    iconUrl: "./src/assets/icons/yelow-star-3-0.svg",
     price: 80,
   },
   {
-    imageUrl: "src/assets/images/frame38.svg",
+    imageUrl: "./src/assets/images/frame38.svg",
     title: "SLEEVE STRIPED T-SHIRT",
-    iconUrl: "src/assets/icons/yelow-star-4-5.svg",
+    iconUrl: "./src/assets/icons/yelow-star-4-5.svg",
     price: 210,
   },
 ];
