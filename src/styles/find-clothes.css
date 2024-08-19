@@ -50,8 +50,24 @@
 
 .column-50 {
   position: relative;
+  overflow: visible;
+
 }
 
+.column-2 {
+  background-image: url("../assets/images/models.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  padding: 58px 0;
+  background-position-x: 10px;
+  overflow: visible;
+}
+
+/* .models {
+  overflow: visible;
+  width: 300px;
+} */
 
 .black-star {
   position: absolute;
