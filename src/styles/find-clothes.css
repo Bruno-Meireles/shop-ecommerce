@@ -74,7 +74,7 @@
 }
 
 .black-star:last-of-type {
-  left: 83%;
+  left: 89%;
   top: 10%;
 }
 
@@ -103,6 +103,7 @@
 /* End Find Chothes bottom of the header */
 
 /* Mobile */
+
 @media (max-width: 576px) {
   .column-50 {
     display: flex;
@@ -162,9 +163,9 @@
 
   }
 
-  .column-2 {
-    /* background-image: none; */
-  }
+   .column-2 {
+    background-image: none;
+  } 
 
   .black-star {
     display: none;
